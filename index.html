@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Fabian Chacón</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<header>
+  <nav aria-label="Navegación principal">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+ <section id="inicio">
+  <div class="presentacion">
+    <h1>Fabian Chacón</h1>
+    <p>Electricista y estudiante de desarrollo web</p>
+    <a href="#contacto">Contáctame</a>
+  </div>
+
+  <figure class="foto-perfil">
+    <img src="images/profile.jpg" alt="Retrato de Fabian Chacón">
+  </figure>
+</section>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Trabajo en mantenimiento electrico industrial y estoy aprendiendo desarrollo web porque me interesa dedicarme a la tecnología.</p>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul class="lista-habilidades">
+  <li>HTML semántico y formularios</li>
+  <li>CSS y diseño adaptable</li>
+  <li>Flexbox y CSS Grid</li>
+  <li>Programacion en Python</li>
+  <li>Programación en Java</li>
+  <li>Programación orientada a objetos</li>
+  <li>Manejo de excepciones en Java</li>
+  <li>Mantenimiento eléctrico industrial</li>
+</ul>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="galeria-proyectos">
+    <article class="tarjeta-proyecto">
+  <h3>Complejo Deportivo</h3>
+  <figure>
+  <img src="images/project1.jpg" alt="Captura del programa Complejo Deportivo">
+  <figcaption>Complejo Deportivo, proyecto académico en Java.</figcaption>
+</figure>
+  <p>Proyecto académico en Java para gestionar socios y reservas de canchas de tenis y mesas de ping-pong.</p>
+  <p><strong>Tecnologías:</strong> Java y programación orientada a objetos.</p>
+</article>
+
+<article class="tarjeta-proyecto">
+  <h3>Sistema de Gestión Clínica</h3>
+  <figure>
+  <img src="images/project2.jpg" alt="Captura del Sistema de Gestión Clínica">
+  <figcaption>Sistema de Gestión Clínica, proyecto académico en Python.</figcaption>
+</figure>
+  <p>Proyecto académico en Python dividido en módulos. Incluye un laboratorio para comparar el rendimiento de algoritmos de búsqueda y ordenamiento.</p>
+  <p><strong>Tecnologías:</strong> Python, estructuras de datos y algoritmos.</p>
+</article>
+
+<article class="tarjeta-proyecto">
+  <h3>Comunidad TEC</h3>
+  <figure>
+  <img src="images/project3.jpg" alt="Interfaz de la aplicación Comunidad TEC">
+  <figcaption>Comunidad TEC, aplicación de escritorio en Java.</figcaption>
+</figure>
+  <p>Aplicación de escritorio en Java para registrar estudiantes y funcionarios. Incluye una interfaz gráfica, validación de datos y guardado en archivos.</p>
+  <p><strong>Tecnologías:</strong> Java, Swing y manejo de archivos.</p>
+</article>
+</div>
+
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+
+    <p>Puedes encontrarme en <a href="https://github.com/
+fabianchacon123">GitHub</a>.</p>
+<p>El formulario de abajo es una demostración.</p>
+
+    <form class="formulario-contacto">
+  <p>
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+  </p>
+
+  <p>
+    <label for="correo">Correo electrónico</label>
+    <input type="email" id="correo" name="correo" autocomplete="email" required>
+  </p>
+
+  <p>
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+  </p>
+
+  <button type="submit">Enviar</button>
+</form>
+<p id="estado-formulario" role="status"></p>
+  </section>
+
+</main>
+
+<footer class="pie-pagina">
+  <p>© 2026 Fabian Chacón</p>
+
+  <ul class="enlaces-pie">
+    <li><a href="#inicio">Volver al inicio</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+    <li><a href="https://github.com/fabianchacon123">GitHub</a></li>
+  </ul>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
